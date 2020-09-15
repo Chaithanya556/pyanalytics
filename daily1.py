@@ -222,9 +222,8 @@ sns.pairplot(iris)  #relationship diagrams
 
 
 #%% #Load Inbuilt Datasets
-
-#pip install pydataset
-from pydataset import data
+pip install pydataset
+#from pydataset import data
 data('iris')
 data('mtcars')
 

@@ -8,14 +8,14 @@ import seaborn as sns
 #scalar
 x0 = np.random.randint(10); x0
 x0.shape
-#1-Dim
+ #1-Dim
 x1 = np.random.randint(10, size=6); x1
 x1.shape
 
 #2-Dim
 x2 = np.random.randint( 10, size=(3,4)) ;x2
 x2.shape
-
+ 
 #3-Dim
 x3 = np.random.randint(10, size=(3,4,5)) ; x3
 x3.shape

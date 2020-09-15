@@ -10,7 +10,7 @@ import pydataset
 from pydataset import data
 data('iris')
 data('iris', show_doc=True)#help
-
+ 
 #better way 
 from pydataset import data
 data()
@@ -24,7 +24,7 @@ data('marketing')
 data('titanic')
 
 alldatasets.head()
-
+  
 #check for availability
 data('iris')
 data('mtcars')
